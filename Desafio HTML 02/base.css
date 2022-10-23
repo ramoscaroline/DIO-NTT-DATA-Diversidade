@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.cardio {
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono';
+    padding-left: 20px; 
+    padding-bottom: 0;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: 'Arial';
+}
+
+h3 {
+    font-family: 'IBM Plex Mono';
+    color: antiquewhite;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+mark {
+    background-color: black;
+}
+
+small {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #DB93B0;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #7DAF9C;
+    padding: 0px 0px 0px;
+}
+
+li{
+    list-style: none;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    color: grey
+
+}
+
+.header {
+    background-color: #DB93B0;
+    min-height: 150px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding-left: 20px;
+}
+
+.foto {
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.mapa {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela {
+    font-family: sans-serif;
+    border: 1px solid lightblue;
+}
+
+.footer {
+    background-color: #DB93B0;
+    min-height: 150px;
+    padding-left: 20px;
+}
+
+.endereco {
+    padding-left: 20px;
+}
